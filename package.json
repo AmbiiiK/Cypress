@@ -1,0 +1,21 @@
+{
+  "name": "cypress-testing-project",
+  "version": "1.0.0",
+  "description": "Automated software testing with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "testing",
+    "cypress",
+    "automation"
+  ],
+  "author": "Jiří Ambroz",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.1.1",
+    "prettier": "^2.5.1"
+  }
+}
